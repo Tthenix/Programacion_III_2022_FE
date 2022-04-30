@@ -1,13 +1,17 @@
-.containerPrincipal {
+.render {
     position: absolute;
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%);
       border: 1px solid blue;
       padding: 40px;
-      background-color: white;
+      background-color: rgb(216, 0, 0);
   }
   
   .containerSecundario{
     text-align: center;
+  }
+
+  p {
+    line-height: 100%;
   }

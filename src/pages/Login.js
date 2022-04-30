@@ -4,9 +4,23 @@ import '../css/Login.css';
 class Login extends Component {
   render() {
     return (
-  <div>Hola</div>
+  <div>
+    <h1>
+      Login
+    </h1>
+    <button>
+      Login
+    </button>
+    <h1>
+      Contraseña
+    </h1>
+    <button>
+      Contraseña
+    </button>
+  </div>
       );
   }
+  
 }
 
 export default Login;
