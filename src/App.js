@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
-import Home from "./components/home";
+import Home from "./components/Home/home";
 import Materias from "./components/materias";
 import Notas from "./components/notas";
 import NavBarExample from "./layouts/navbar";
@@ -23,14 +23,14 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="Routes">
       {user.email != ""}
 
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<NavBarExample />}>
+            <Route path="/" element={<Home />} />
             <Route path="login" element={<Login />} />
-            <Route path="home" element={<Home />} />
             <Route path="materias" element={<Materias />} />
             <Route path="notas" element={<Notas />} />
 

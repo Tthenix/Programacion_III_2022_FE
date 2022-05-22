@@ -1,16 +1,10 @@
 .App {
-  text-align: center;
+  text-align: center;  
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -38,9 +32,8 @@
 }
 
 section {
-  color: #fff;
-  text-shadow: 3px 3px rgba(50,50,70,0.5);
-  background-color: #fcfcfcb0;
+  color: rgb(0, 0, 0);
+  background-color: #cccccc;
   height: 100vh;  
 }
 .navBg {
